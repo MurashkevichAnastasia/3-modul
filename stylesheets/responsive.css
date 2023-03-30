@@ -1,0 +1,465 @@
+@media only screen and (min-width: 1500px) {
+  h1 {
+    /* line-height: 46px;
+    line-height: 30px; */
+  }
+  .game_two {
+    justify-content: space-between;
+    height: 50.3vh;
+    /* height: 44.3vh; */
+    padding-top: 0.5vh;
+    height: 53.3vh;
+  }
+  .fun, .philosophical, .balanced, .mischievous, .good, .mystical, .disturbing, .cordial, .sad, .gloomy, .aggressive, .lousy {
+    width: auto;
+    margin-top: 1.75vh;
+    margin-left: 0.5vw;
+    font-size: 3vh;
+  }
+  .fun, .philosophical {
+    margin-top: 2vh;
+  }
+  .aggressive, .lousy {
+    margin-bottom: 2vh;
+  }
+  .container-btns-6 {
+    margin-top: auto;
+  }
+
+  .wind {
+    height: 79.65vh;
+  }
+  .wind-4 {
+    left: 31vw;
+    top: 61vh;
+  }
+  .wind-3 {
+    top: 39vh;
+    left: 1vw;
+  }
+  .fonts-group {
+    display: none;
+  }
+  .foonts-resp {
+    display: block;
+    width: 100%;
+  }
+  /* игра 6 */
+  @keyframes run-two-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-21vw);
+    }
+  }
+  @keyframes run-three-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-29.5vw);
+    }
+  }
+  @keyframes run-four-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-29.5vw);
+    }
+  }
+  @keyframes run-five-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-29.5vw);
+    }
+  }
+  @keyframes run-six-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-11vw);
+    }
+  }
+  @keyframes run-seven-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-21vw);
+    }
+  }
+  @keyframes run-eight-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-17vw);
+    }
+  }
+  @keyframes run-nine-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-28.5vw);
+    }
+  }
+  @keyframes run-ten-text {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-21vw);
+    }
+  }
+
+  .cub_one {
+    top: 0vh;
+    left: 1vw;
+  }
+  .cub_two {
+    top: 11vh;
+    left: 16vw;
+  }
+  .cub_three {
+    left: 8vw;
+    top: 1vh;
+  }
+  .cub_four {
+    top: -3vh;
+    left: 0vw;
+  }
+
+  .run-one, .run-two, .run-three, .run-four, .run-five, .run-six, .run-seven, .run-eight, .run-nine, .run-ten {
+    width: auto;
+  }
+
+}
+
+@media only screen and (max-width: 1238px) {
+  .flex_minds {
+    gap: 8.3vw;
+  }
+  .item_2 {
+    display: none;
+  }
+  .item_5 {
+    display: none;
+  }
+  .important_topic {
+    display: none;
+  }
+  .seed {
+    display: none;
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 149px;
+  }
+  .fun {
+    display: none;
+  }
+  .mischievous {
+    display: none;
+  }
+  .good {
+    display: none;
+  }
+  .cordial {
+    display: none;
+  }
+  .gloomy {
+    display: none;
+  }
+  .lousy {
+    display: none;
+  }
+  .philosophical {
+    font-size: 27px;
+  }
+  .balanced {
+    font-size: 27px;
+  }
+  .mystical {
+    font-size: 27px;
+  }
+  .disturbing {
+    font-size: 27px;
+  }
+  .sad {
+    font-size: 27px;
+  }
+  .sad {
+    font-size: 27px;
+  }
+  .aggressive {
+    font-size: 27px;
+  }
+  .title_topic-1, .title_topic-2, .title_topic-3, .close_wind, .title_topic-6, .title_topic-7, .title_topic-8 {
+    font-size: 32px;
+    line-height: 5vh;
+  }
+  .section-4 {
+    margin-top: 4vh;
+  }
+  .news-1 {
+    font-size: 2.3vh;
+  }
+  .footer {
+    padding: 10px 49px;
+  }
+  .group {
+    font-size: 3.3vh;
+  }
+  .student_name {
+    font-size: 3.3vh;
+  }
+}
+
+
+
+@media only screen and (max-width: 744px) and (min-width: 429px){
+  .flex_minds {
+    gap: 8.3vw;
+  }
+  .card_one_box {
+    grid-column: 1 / 4;
+    width: 35.6vw;
+    /* width: 24.6vw; */
+    /* height: 607px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .game_one-0 {
+    width: 35.6vw;
+  }
+  .card_two_box {
+    display: none;
+  }
+  .card_three_box {
+    grid-column: 4 / 8;
+  }
+  .mouse {
+    grid-column: 1 / 4;
+  }
+  .text {
+    grid-column: 4 / 8;
+    justify-content: none;
+  }
+  .go {
+
+  }
+  .most {
+    width: 100%;
+    display: block;
+  }
+  .adv {
+    width: 100%;
+    display: block;
+  }
+  .dont {
+    width: 100%;
+    display: block;
+  }
+  .now {
+
+  }
+  .wihout {
+    width: 100%;
+    display: block;
+  }
+  .look {
+
+  }
+  .fonts-group {
+    display: none;
+  }
+  .foonts {
+    display: none;
+  }
+  .game-four {
+    grid-column: 1 / -1;
+  }
+  .wind {
+    grid-column: 1 / -1;
+  }
+  .wind-1 {
+    width: 46vw;
+    top: 10vh;
+    left: 3vh;
+  }
+  .wind-2 {
+    left: 36vw;
+    width: 46vw;
+  }
+  .wind-3 {
+    width: 57vw;
+    top: 53vh;
+    left: 3vw;
+  }
+  .wind-4 {
+    width: 36vw;
+    left: 45vw;
+    top: 75vh;
+  }
+  .wind-5 {
+    width: 57vw;
+  }
+  .wind-6 {
+    width: 60vw;
+  }
+  .section-4 {
+   
+  }
+  .card_six_box {
+    grid-column: 1 / 4;
+  }
+  .card_seven_box {
+    grid-column: 4 / -1;
+  }
+  .card_eight_box {
+    grid-column: 1 / -1;
+  }
+  .news {
+    grid-column: 1 / 7;
+  }
+  .runtext {
+    font-size: 130px;
+  }
+  .footer {
+    padding: 10px 87px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 428px) {
+  .smartLogo {
+    margin-top: 5.2vh;
+  }
+  .flex_minds {
+    display: none;
+  }
+  .card_one_box {
+    grid-column: 1 / -1;
+    width: 86.6vw;
+  }
+  .container-game-1 {
+    grid-column: 1 / -1;
+  }
+  .game_one-0 {
+    display: none;
+  }
+  .game_one-resp {
+    width: 100%;
+    display: block;
+  }
+  .important_topic {
+    display: block;
+    margin-top: 2.9vh;
+    margin-bottom: 4vh;
+  }
+  .game_three-img {
+    width: 100%;
+  }
+  .seed {
+    margin-top: 6vh;
+  }
+  .card_three_box {
+    grid-column: 1 / 8;
+  }
+  .qr {
+    margin-top: 3vh;
+  }
+  .mouse {
+    grid-column: 1 / -1;
+  }
+  .text {
+    grid-column: 1 / 8;
+  }
+  .card_two_box {
+    grid-column: 1 / 8;
+  }
+  .fonts-group {
+    display: none;
+  }
+  .game-four {
+    grid-column: 1 / 8;
+  }
+  .wind-1 {
+    display: block;
+    width: 27vh;
+    top: 7vh;
+    left: 3vh;
+  }
+  .wind-2 {
+    left: 25vw;
+    width: 60vw;
+    top: 2vh;
+  }
+  .wind-3 {
+    width: 67vw;
+    top: 57vh;
+    left: 3vw;
+  }
+  .wind-4 {
+    width: 65vw;
+    left: 16vw;
+    top: 78vh;
+  }
+  .wind-5 {
+    width: 57vw;
+    top: 23vh;
+  }
+  .wind-6 {
+    width: 72vw;
+    top: 40vh;
+    left: 11vw;
+  }
+  .card_six_box {
+    grid-column: 1 / 8;
+  }
+  .run-one, .run-two, .run-three, .run-four, .run-five, .run-six, .run-seven, .run-eight, .run-nine, .run-ten {
+    width: auto;
+  }
+  .card_seven_box {
+    grid-column: 1 / 8;
+  } 
+  .card_eight_box {
+    grid-column: 1 / 8;
+  }
+  #draggable {
+    top: -23px;
+    left: -243px;
+  }
+  #draggablefour{
+    top: -31px;
+    left: -69px;
+  }
+  .news {
+    grid-column: 1 / 8;
+  }
+  .news-1 {
+    font-size: 2.5vh;
+  }
+  .group {
+    display: none;
+  }
+  .footer {
+    padding: 10px 20px;
+    justify-content: center;
+  }
+  .section-4 {
+    margin-top: 11vh;
+  }
+  .topic-1 {
+    width: auto;
+    height: auto;
+  }
+}
+

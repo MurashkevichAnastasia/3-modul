@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/responsive.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <title>MadHouse</title>
+  <!-- исчезновение по клику в игре 4 -->
+
+
+
+
+<!-- сбор мышей в клетки -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+   $( function() {
+    $( "#draggable" ).draggable();
+  } );
+</script>
+
+
+
+
+
+<script type="text/javascript" src="js/main.js"></script>    
+
+</head>
+<body>
+  <header class="header">
+    <div class="header_conteiner">
+     <img src="images/smartLogo.svg" alt="" class="smartLogo">
+    </div>
+  <div class="flex_minds">
+      <h4 id="item_1">мышиный</h4>
+      <h4 class="item_2">чудный</h4>
+      <h4 class="item_3">суетливый</h4>
+      <h4 class="item_4">безумный</h4>
+      <h4 class="item_5">причудливый</h4>
+      <h4 class="item_6">странный</h4>
+      <h4 class="item_7">лечебный</h4>
+    </div>
+  <hr>
+  </header>
+
+  <main class="main">
+    <div class="main_conteiner">
+      <div class="card_one_box">
+        <!-- <img src="images/game_one.svg" alt="" class="game_one"> -->
+        <div id="add-box" class="container-game-1">
+          <img id="image1" src="images/change-photo.svg" alt="" class="game_one-0" onclick="changeImage()">
+
+          <img id="image-resp" src="images/game_one-resp-color.svg" alt="" class="game_one-resp " onclick="changeImageResp()">
+
+          
+        </div>
+        <div class="one_text_section">
+          <h1 class="title_topic-1">Завтрак: поедание сыра</h1>
+        <p class="topic-1">Выбрать кусок сыра по душе</p>
+        </div>
+        <button class="important_topic">важная тема</button>
+        <h2 class="seed">“вопрос дня: сыр или зерно на завтрак?”</h2>
+      </div>
+
+      <div class="card_two_box">
+        <div class="game_two">
+          <div class="container-btns-1">
+            <button onclick="buttonColor()"id="button" class="fun">веселое</button>
+            <button onclick="buttonColor2()"id="button2" class="philosophical">философское</button>
+          </div>
+          <div class="container-btns-2">
+            <button onclick="buttonColor3()"id="button3"class="balanced">спокойное</button>
+            <button onclick="buttonColor4()"id="button4" class="mischievous">озорное</button>
+          </div>
+          <div class="container-btns-3">
+            <button onclick="buttonColor5()"id="button5"class="good">хорошее</button>
+            <button onclick="buttonColor6()"id="button6"class="mystical">мистическое</button>
+          </div>
+          <div class="container-btns-4">
+            <button onclick="buttonColor7()"id="button7"class="disturbing">тревожное</button>
+            <button onclick="buttonColor8()"id="button8"class="cordial">радушное</button>
+          </div>
+          <div class="container-btns-5">
+            <button onclick="buttonColor9()"id="button9"class="sad">печальное</button>
+            <button onclick="buttonColor10()"id="button10"class="gloomy">мрачное</button>
+          </div>
+          <div class="container-btns-6">
+            <button onclick="buttonColor11()"id="button11"class="aggressive">агрессивное</button>
+            <button onclick="buttonColor12()"id="button12"class="lousy">паршивое</button>
+          </div>
+        </div>
+        <div class="two_text_section">
+          <h1 class="title_topic-2">выбрать слова, характеризующие состояние</h1>
+        <p class="topic-2">Задачей является показать, как ощущают себя мыши на данный момент</p>
+        </div>       
+      </div>
+
+      <div class="card_three_box">
+        <!-- <div class="cursor" style="left: 783px; top: 332px; opacity: 1;"></div>
+        <div class="cursorLabel" style="left: 783px; top: 332px; opacity: 1;"></div> -->
+        <div class="game-three">
+          <img src="images/sleeping.svg" alt="" class="game_three-img">
+          <div class="game-three-thing"></div>
+          <div class="game-three-thing2"></div>
+          <div class="game-three-thing3"></div>
+        </div>
+        <div class="three_text_section">
+          <h1 class="title_topic-3">разбудить спящую мышь</h1>
+        <p class="topic-3">При наведении создаются шорохи</p>
+        </div>
+        <img src="images/qr.svg" alt="" class="qr">       
+      </div>
+    </div>
+  </main>
+
+  <div class="section-2">
+    <div class="mouse">
+      <img src="images/running_mouse.svg" alt="" class="running_mouse">
+      <img src="images/running_mouse2.svg" alt="" class="running_mouse2">
+      <img src="images/running_mouse3.svg" alt="" class="running_mouse3">
+    </div>
+    <div class="text">
+      <img src="images/go.svg" alt="" class="go">
+      <img src="images/most.svg" alt="" class="most">
+      <img src="images/adv.svg" alt="" class="adv">
+      <img src="images/dont.svg" alt="" class="dont">
+      <img src="images/now.svg" alt="" class="now">
+      <img src="images/without.svg" alt="" class="wihout">
+      <img src="images/look.svg" alt="" class="look">
+    </div>    
+  </div>
+
+  <div class="section-3">
+    <div class="game-four">
+      <div class="wind">
+        <img id="text"  src="images/wind-1.svg" alt="" class="wind-1">
+        <img id="texttext" src="images/wind-2.svg" alt="" class="wind-2">
+        <img id="textthree" src="images/wind-3.svg" alt="" class="wind-3">
+        <img id="textfour" src="images/wind-4.svg" alt="" class="wind-4">
+        <img id="textfive" src="images/wind-5.svg" alt="" class="wind-5">
+        <img id="textsix" src="images/wind-6.svg" alt="" class="wind-6">
+      </div>
+
+    <div class="wind_text-section">
+    <h1 class="close_wind">вышло так, что главврач отошел и оставил компьютер без присмотра, задача - закрыть все вкладки, напакостив так врачу</h1>
+    <p class="topic-4">На экране видны рабочие окна, которые, вероятно, нужны врачу, а с каждым кликом их становится все меньше и находить информация станет тяжелее... ну весело же:)</p>
+    </div>
+    </div>
+    <div class="foonts">
+      <div class="fall">
+        <img src="images/foonts-group.svg" alt="" class="fonts-group">
+        <img src="images/foonts-resp.svg" alt="" class="foonts-resp">    
+      </div>     
+      <div class="fall1"></div>
+      <div class="fall2"></div> 
+      <div class="fall3"></div>   
+      <div class="fall4"></div> 
+      <div class="fall5"></div>
+      <div class="fall6"></div>
+      <div class="fall6"></div> 
+      <div class="fall7"></div>
+      <div class="fall8"></div>     
+      <div class="fall9"></div>
+      <div class="fall10"></div>
+      <div class="fall11"></div>
+      <div class="fall12"></div>
+      <div class="fall13"></div>
+      <div class="fall14"></div>
+      <div class="fall15"></div>
+    </div>
+  </div>
+
+  <div class="section-4">
+    <div class="card_six_box">
+      <div class="gamesix">
+        <div class="run-one">
+          <div class="run-one-text">мыши смотрят пытаются включить телевизор, чтобы посмотреть мультики</div>
+        </div>
+
+        <div class="run-two">
+          <div class="run-two-text">но они  еще не знают, что не смогут посмотреть мультики</div>
+        </div>
+
+        <div class="run-three">
+          <div class="run-three-text">потому что в дурдоме проводится плановое отключение электричества</div>
+        </div>
+
+        <div class="run-four">
+          <div class="run-four-text">ну или мыши-соседи перегрызли провода и телевидение не работает</div>
+        </div>
+
+        <div class="run-five">
+          <div class="run-five-text">грызть провода было достаточно весело, жаль теперь мультики не посмотреть</div>
+        </div>
+        
+        <div class="run-six">
+          <div class="run-six-text">остается только смотреть на бегущие полосы</div>
+        </div>
+
+
+        <div class="run-seven">
+          <div class="run-seven-text">можно подождать пока придет мастер и починит телевидение</div>
+        </div>
+
+        <div class="run-eight">
+          <div class="run-eight-text">можно попытаться самостоятельно починить поломку</div>
+        </div>
+
+        <div class="run-nine">
+          <div class="run-nine-text">если долго смотреть на бегущие строки, начинает сильно кружиться голова</div>
+        </div>
+
+        <div class="run-ten">
+          <div class="run-ten-text">как только не развлекаются мыши в сумасшедшем доме</div>
+        </div>
+      </div>
+      
+      <div class="six_text_section">
+        <h1 class="title_topic-6">просмотр сломанного телевизора</h1>
+      <p class="topic-6">Коллеги перегрызли провода и смотреть больше нечего</p>
+      </div>
+    </div>
+
+    <div class="card_seven_box">
+      <div class="gameseven">
+        <div onclick="elColor()"id="el" class="el1"></div>
+        <div onclick="elColor2()"id="el2" class="el2"></div>
+        <div onclick="elColor3()"id="el3"  class="el3"></div>
+        <div onclick="elColor4()"id="el4" class="el4"></div>
+        <div onclick="elColor5()"id="el5"  class="el5"></div>
+        <div onclick="elColor6()"id="el6" class="el6"></div>
+        <div onclick="elColor7()"id="el7" class="el7"></div>
+        <div onclick="elColor8()"id="el8" class="el8"></div>
+        <div onclick="elColor9()"id="el9" class="el9"></div>
+        <div onclick="elColor10()"id="el10" class="el10"></div>
+        <div class="el11"></div>
+        <div class="el12"></div>
+        <div onclick="elColor13()"id="el13" class="el13"></div>
+        <div class="el14"></div>
+        <div class="el15"></div>
+        <div class="el16"></div>
+        <div class="el17"></div>
+        <div onclick="elColor18()"id="el18"class="el18"></div>
+        <div class="el19"></div>
+      </div>
+      <div class="seven_text_section">
+        <h1 class="title_topic-7">Найти голубые шарики</h1>
+      <p class="topic-7">По клику на шарик проявится нужный цвет</p>
+      </div>
+    </div>
+
+    <div class="card_eight_box">
+      <div class="gameeight">
+        <img src="images/cub_one.svg" alt="" class="cub_one">
+        <img src="images/cub_two.svg" alt="" class="cub_two">
+        <img src="images/cub_three.svg" alt="" class="cub_three">
+        <img src="images/cub_four.svg" alt="" class="cub_four">
+        <!-- мыши -->
+        <img  id="draggable" src="images/mouse_one.svg" alt="" class="mouse_one">
+        <img id="draggabletwo" id="draggabletwo" src="images/mouse_two.svg" alt="" class="mouse_two">
+        <img id="draggablethree" src="images/mouse_three.svg" alt="" class="mouse_three">
+        <img id="draggablefour"  src="images/mouse_four.svg" alt="" class="mouse_four">
+      </div>
+      <div class="eight_text_section">
+        <h1 class="title_topic-8">мыши опять забрались фиг пойми куда и фиг пойми зачем, но выбираться надо...</h1>
+      <p class="topic-8">Верните мышей хоть куда</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-5">
+    <div class="news">
+      <p class="news-1">выпуск 1 издания от 20.02.2023</p>
+    </div>
+    <img src="images/next.svg" alt="" class="next">
+    <div class="run">
+      <h1 class="runtext">вы узнаете как мышки реагируют на лечение в сумасшедшем доме</h1>
+    </div>
+    <!-- <hr class="footer-1">
+    <p class="group">БД22ДЗ09</p>
+    <hr class="footer-2"> -->
+  </div>
+
+  <div class="border-1"></div>
+  <div class="footer">
+    <!-- <hr class="f-1"> -->
+    <p class="group">БД22ДЗ09</p>
+    <p class="student_name">мурашкевич анастасия</p>
+  </div>
+  <div class="border-2"></div>
+
+
+</body>
+</html>
+
